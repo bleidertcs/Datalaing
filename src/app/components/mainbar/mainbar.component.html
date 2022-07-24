@@ -1,0 +1,93 @@
+<div class="mainbar">
+  <div class="container">
+    <div id="menu_general">
+      <button type="button" class="btn mainbar-toggle" data-toggle="collapse" data-target=".mainbar-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      <!-- MENU PARA USUARIOS CONSULTA -->
+      <div class="mainbar-collapse collapse">
+        <ul class="nav navbar-nav mainbar-nav" style="text-align: center;display: inline-block">
+          <li style="display: inline; float: left;">
+            <a href="@{/autenticar}" style="color:#ffffff">
+              <fa-icon class="fa-2xl" [icon]="faHome"></fa-icon>
+
+              Inicio
+            </a>
+          </li>
+          <li class="dropdown" style="display: inline; float: left;">
+            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" style="color:#ffffff">
+              <fa-icon class="fa-2xl" [icon]="faTh"></fa-icon>
+
+              <!--i><img src="./static/img/materiales/Agrupacion-02.png" alt="Site Logo" width="49" height="49"/></i-->
+              <div style="display: inline-block;">Materiales</div>
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="@{/materialesSimples}"><i class="fa fa-object-ungroup"></i>
+                  <div style="display: inline-block;margin-left: 3px;">Materiales Simples</div>
+                </a>
+              </li>
+              <li>
+                <a href="@{/materialesCompuestos}"><i class="fa fa-object-group"></i>
+                  <div style="display: inline-block;margin-left: 3px;">Materiales Compuestos</div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown" style="display: inline; float: left;">
+            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" style="color:#ffffff">
+              <fa-icon class="fa-2xl" [icon]="faGavel"></fa-icon>
+
+
+              <div style="display: inline-block;">Equipos</div>
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="@{/materialesSimples}"><i class="fa fa-square-o"></i>
+                  <div style="display: inline-block;margin-left: 3px;">Equipos Simples</div>
+                </a>
+              </li>
+              <li>
+                <a href="@{/materialesCompuestos}"><i class="fa fa-clone"></i>
+                  <div style="display: inline-block;margin-left: 3px;">Equipos Compuestos</div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown" style="display: inline; float: left;">
+            <a class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" style="color:#ffffff">
+              <fa-icon class="fa-2xl" [icon]="faUsers"></fa-icon>
+
+
+              <div style="display: inline-block;">Mano de Obras</div>
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="@{/materialesSimples}"><i class="fa fa-user"></i>
+                  <div style="display: inline-block;margin-left: 3px;">Simples</div>
+                </a>
+              </li>
+              <li>
+                <a href="@{/materialesCompuestos}"><i class="fa fa-users"></i>
+                  <div style="display: inline-block;margin-left: 3px;">Compuestas</div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li style="display: inline; float: left;">
+            <a href="@{/autenticar}" style="color:#ffffff">
+              <fa-icon class="fa-2xl" [icon]="faFileText"></fa-icon>
+
+              Partidas
+            </a>
+          </li>
+
+        </ul>
+      </div>
+      <!-- FIN MENU PARA USUARIOS CONSULTA -->
+    </div>
+  </div>
+</div>

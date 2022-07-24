@@ -1,0 +1,76 @@
+<div id="cabeceralogoddponegro" class="navbar-header" style="text-align: left ; margin-left: 5rem;">
+  <img src="./../../../assets/img/logo-datalaing.png" alt="Site Logo" width="300" height="60"
+    style="padding-top: 5px;" />
+
+  <!-- Perfil-->
+  <div mdbDropdown class="nav-item dropdown" style="float: right; margin-top: 1rem; margin-right: 1rem;">
+    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+      style="color: #ACB3B7;">
+      <fa-icon class="fa-2xl" [icon]="faUserCircle"></fa-icon>
+      <span>Pedro&nbsp;</span><span>Perez&nbsp;</span>
+    </a>
+    <ul mdbDropdownMenu class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li>
+        <button>
+          <fa-icon class="fa-2xl" [icon]="faUser"></fa-icon>
+          <a class="dropdown-item" href="#"> &nbsp;&nbsp;Mi Perfil</a>
+        </button>
+      </li>
+      <li>
+        <button>
+          <fa-icon class="fa-2xl" [icon]="faKey"></fa-icon>
+          <a class="dropdown-item" href="#">&nbsp;&nbsp;Cambiar Contraseña</a>
+        </button>
+      </li>
+      <li>
+        <button>
+          <fa-icon class="fa-2xl" [icon]="faSignOut"></fa-icon>
+          <a class="dropdown-item" href="#">&nbsp;&nbsp;Salir</a>
+        </button>
+      </li>
+    </ul>
+  </div>
+  <!-- Fin Perfil-->
+
+  <!--Configuracion-->
+  <div class="nav-item dropdown" style="float: right; margin-top: 1rem; margin-right: 1rem;">
+    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+      style="color: #ACB3B7;">
+      <fa-icon class="fa-2xl" [icon]="faCogs"></fa-icon>
+      <span>Configuración</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li>
+        <fa-icon class="fa-2xl" [icon]="faCogs"></fa-icon>
+        <a class="dropdown-item" href="#"> &nbsp;&nbsp;Carga y Actualización BD</a>
+      </li>
+      <li>
+        <fa-icon class="fa-2xl" [icon]="faCogs"></fa-icon>
+        <a class="dropdown-item" href="#">&nbsp;&nbsp;Reseteo de MAC Address</a>
+      </li>
+    </ul>
+  </div>
+  <!-- Fin Configuracion-->
+
+  <!--Administracion-->
+  <div mdbDropdown class="nav-item dropdown" style="float: right; margin-top: 1rem;  margin-right: 1rem;">
+    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+      style="color: #ACB3B7;">
+      <fa-icon class="fa-2xl" [icon]="faIdCard"></fa-icon>
+      <span>Administración Usuarios</span>
+    </a>
+    <ul mdbDropdownMenu class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li>
+        <fa-icon class="fa-2xl" [icon]="faUserPlus"></fa-icon>
+        <a class="dropdown-item" href="#"> &nbsp;&nbsp;Nuevo Usuario</a>
+
+      </li>
+      <li>
+        <fa-icon class="fa-2xl" [icon]="faAddressBook"></fa-icon>
+        <a class="dropdown-item" href="#">&nbsp;&nbsp;Asignar Perfiles</a>
+      </li>
+    </ul>
+  </div>
+  <!-- Fin Administracion-->
+
+</div>

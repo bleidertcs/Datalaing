@@ -1,0 +1,4 @@
+.mainbar-collapse > li:last-child
+{
+    float:right;
+}
