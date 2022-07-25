@@ -21,6 +21,23 @@ export class HeaderComponent implements OnInit {
   faSignOut = faSignOut;
 
 
+  public items = [
+    {
+      text: 'Mi Perfil',
+      iconCss: faUser
+    },
+    {
+      text: 'Cambiar Contraseña',
+      iconCss: faKey
+    },
+    {
+      text: 'Salir',
+      iconCss: 'ddb-icons e-read'
+    },
+    {
+      text: 'Like Message',
+      iconCss: faSignOut
+    }];
 
   constructor() { }
 

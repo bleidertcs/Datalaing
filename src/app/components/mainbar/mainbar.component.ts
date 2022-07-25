@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faUsers, faFileText, faHome, faTh, faGavel, faUser } from '@fortawesome/free-solid-svg-icons';
+import { faUsers, faFileText, faHome, faTh, faGavel, faUser, faObjectUngroup, faObjectGroup } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-mainbar',
@@ -14,6 +14,8 @@ export class MainbarComponent implements OnInit {
   faUser = faUser;
   faUsers = faUsers;
   faFileText = faFileText;
+  faObjectUngroup = faObjectUngroup;
+  faObjectGroup = faObjectGroup;
 
   constructor() { }
 
